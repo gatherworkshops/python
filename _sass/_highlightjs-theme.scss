@@ -1,0 +1,56 @@
+/* Hemisu Dark */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - http://noahfrederick.com/vim-color-scheme-hemisu/ */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+.hemisu-comment, pre .comment, pre .xml .doctype, pre .html .doctype {
+  color: #999999;
+}
+
+.hemisu-accent1, pre .number, pre .ruby .keyword {
+  color: #538192;
+}
+
+.hemisu-accent2, pre .string, pre .regexp, pre .xml .value, pre .html .value {
+  color: #0000DD !important;
+}
+
+.hemisu-accent3, pre .keyword, pre .title, pre .constant, pre .xml .tag, pre .html .tag, pre .css .rules .attribute {
+  color: #ff0055;
+}
+
+.hemisu-accent4 {
+  color: #503d15;
+}
+
+
+
+pre code {
+  display: block;
+  background: white;
+  color: #111111 !important;
+  font-family: Menlo, Monaco, Consolas, monospace;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+pre .xml .tag .title {
+  color: #111111;
+}
+pre .html .tag .title {
+  color: #ff0055;
+}
+
+pre .css .tag,
+pre .css .class,
+pre .css .id {
+  color: #ff0055 !important;
+}
+
+pre .css .rule .attribute {
+  color: #3882A5;
+}
+
+pre .css .rule .value,
+pre .css .rule .number {
+  color: #5F2999 !important;
+}

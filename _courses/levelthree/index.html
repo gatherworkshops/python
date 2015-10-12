@@ -1,0 +1,66 @@
+---
+layout: workshop
+title: NCEA Level Three
+course: levelthree
+
+standard: AS91073
+heading: Python Programming
+tagline: Create a complex computer program for a specified purpose
+
+studentsurvey: https://gather.typeform.com/to/m3cJsR
+teachersurvey: https://gather.typeform.com/to/rLqMQK
+
+quests:
+    
+    - name: unknown
+      subtitle: Quest One
+      title: Quest One
+    
+---
+
+<div class="row">
+
+    {% for chapter in site.data.courses[page.course] %}
+
+    <div class="chapter col-md-4">
+        <a href="{{ chapter.name }}.html">
+            <div class="badge">
+                <img src="{{ site.baseurl }}/media/images/icons/{{ chapter.name }}.png">
+            </div>
+            <span class="subtitle">{{ chapter.subtitle }}</span>
+            <span class="title">{{ chapter.title }}</span>
+        </a>
+    </div>
+
+    {% endfor %}
+
+</div>
+
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <h2 class="break">Extra Quests for the Curious...</h2>
+    </div>
+</div>
+
+<div class="row curiosity-quests">
+
+    {% for chapter in page.quests %}
+
+    <div class="chapter col-md-4">
+        <a href="{{ chapter.name }}">
+            <div class="badge">
+                <img src="{{ site.baseurl }}/media/images/icons/{{ chapter.name }}.png">
+            </div>
+            <span class="subtitle">{{ chapter.subtitle }}</span>
+            <span class="title">{{ chapter.title }}</span>
+        </a>
+    </div>
+
+    {% endfor %}
+
+</div>
+
+

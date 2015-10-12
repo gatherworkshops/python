@@ -1,0 +1,43 @@
+taster:
+  - name: welcome
+    subtitle: Course Intro
+    title: Welcome
+
+  - name: helloworld
+    subtitle: Chapter One
+    title: Hello World
+
+  - name: turtles
+    subtitle: Chapter Two
+    title: Turtles
+
+
+
+
+levelthree:
+
+  - name: welcome
+    subtitle: Course Intro
+    title: Welcome
+
+  - name: review
+    subtitle: Chapter One
+    title: Skills Review
+
+  - name: gui
+    subtitle: Chapter Two
+    title: User Interfaces
+
+  - name: layouts
+    subtitle: Chapter Three
+    title: Layouts
+
+  - name: events
+    subtitle: Chapter Four
+    title: Interaction
+
+  - name: classes
+    subtitle: Chapter Three
+    title: Classes
+
+

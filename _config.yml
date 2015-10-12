@@ -1,0 +1,19 @@
+name: Building with Python
+baseurl: "/Building-with-Python"
+markdown: redcarpet
+highlighter: pygments
+exclude: ["node_modules", "Gemfile", "Gruntfile.js", "package.json", "README.md"]
+
+sass:
+    sass_dir: _sass
+    
+collections:
+  assets:
+    output: true
+  courses:
+    output: true
+    layout: chapter
+
+
+# theme
+themecolor: "#466f1b"
