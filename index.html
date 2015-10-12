@@ -33,11 +33,13 @@ courses:
     - name: levelthree
       title: NCEA Level Three
       length: 10 hours
-      description: Coming Soon
+      description: Available Now
 ---
 
-<h1>{{ site.name }}</h1>
-<p>{{ page.tagline }}</p>
+<div class="container page-header">
+    <h1>{{ site.name }}</h1>
+    <p>{{ page.tagline }}</p>
+</div>
 
 <div class="container">
     <div class="row chapter-links">
@@ -46,16 +48,7 @@ courses:
 
         {% for course in page.courses %}
 
-            <div class="chapter col-md-4">
-                <a href="{{ site.baseurl }}/courses/{{ course.name }}">
-                    <div class="badge">
-                        <img src="{{ site.baseurl }}/media/images/icons/{{ course.name }}.png">
-                    </div>
-                    <span class="title">{{ course.title }}</span>
-                    <span class="length">{{ course.length }}</span>
-                    <p>{{ course.description }}</p>
-                </a>
-            </div>
+            {% include tile-link.html %}
 
         {% endfor %}
 

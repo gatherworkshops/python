@@ -20,20 +20,54 @@
 		text-align: center;
 	}
 
-	.chapter a {
+}
+
+/* the tile block */
+.tile-link {
+
+	a {
 		display: block;
 		border: 1px solid white;
 		border-radius: 3px;
+		overflow: hidden;
 		margin-top: 70px;
 		margin-bottom: 20px;
-		padding: 15px;
 		background-color: rgba(255, 255, 255, 0.8);
 		text-decoration: none;
 		box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
 		text-align: center;
+		color: #666;
 	}
 
-	.chapter .badge {
+	.header-image {
+		width: 100%;
+	}
+
+	.title {
+		display: block;
+		font-weight: bold;
+		font-size: 1.8em;
+		font-family: "Lunchbox";
+		margin-top: 15px;
+	}
+
+	.length {
+		font-size: 1em;
+	}
+
+	.subtitle {
+		display: block;
+		font-style: italic;
+		font-size: 1em;
+	}
+
+	p {
+		text-align: center;
+		margin-top: 10px;
+		font-size: 14px;
+	}
+
+	.badge {
 
 		width: 120px;
 		height: 120px;
@@ -53,29 +87,6 @@
 			left: 15%;
 			opacity: 0.8;
 		}
-	}
-
-	.chapter .title {
-		display: block;
-		font-weight: bold;
-		font-size: 1em;
-		font-family: "Lunchbox";
-	}
-
-	.chapter .length {
-		font-size: 0.6em;
-	}
-
-	.chapter .subtitle {
-		display: block;
-		font-style: italic;
-		font-size: 1em;
-	}
-
-	p {
-		text-align: left;
-		margin-top: 10px;
-		font-size: 14px;
 	}
 
 }
