@@ -1,5 +1,5 @@
 name: Building with Python
-baseurl: "/Building-with-Python"
+baseurl: "/python"
 markdown: redcarpet
 highlighter: pygments
 exclude: ["node_modules", "Gemfile", "Gruntfile.js", "package.json", "README.md"]
