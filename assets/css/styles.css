@@ -30,8 +30,8 @@
   font-family: 'LunchBox';
   font-weight: bold;
   font-style: normal;
-  src: url("/Building-with-Python/assets/fonts/2ACF7E_0_0.eot");
-  src: url("/Building-with-Python/assets/fonts/2ACF7E_0_0.eot?#iefix") format("embedded-opentype"), url("/Building-with-Python/assets/fonts/2ACF7E_0_0.woff") format("woff"), url("/Building-with-Python/assets/fonts/2ACF7E_0_0.ttf") format("truetype"), url("/Building-with-Python/assets/fonts/2ACF7E_0_0.svg#wf") format("svg"); }
+  src: url("/python/assets/fonts/2ACF7E_0_0.eot");
+  src: url("/python/assets/fonts/2ACF7E_0_0.eot?#iefix") format("embedded-opentype"), url("/python/assets/fonts/2ACF7E_0_0.woff") format("woff"), url("/python/assets/fonts/2ACF7E_0_0.ttf") format("truetype"), url("/python/assets/fonts/2ACF7E_0_0.svg#wf") format("svg"); }
 .container > .navbar-header,
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
@@ -191,7 +191,7 @@ ul {
   background-size: 200px, auto;
   background-position: 0px 0px;
   background-repeat: repeat;
-  background-image: url(/Building-with-Python/media/images/theme/theme-tile.svg), linear-gradient(to bottom, #2c4611 0px, #609825 100%);
+  background-image: url(/python/media/images/theme/theme-tile.svg), linear-gradient(to bottom, #2c4611 0px, #609825 100%);
   width: 100%;
   text-align: center;
   font-size: 2.4rem;
@@ -292,7 +292,7 @@ ul {
   background-size: 1200px, auto;
   background-position: 0px 0px;
   background-repeat: repeat;
-  background-image: url(/Building-with-Python/media/images/theme/theme-tile.svg), linear-gradient(to bottom, #466f1b 0px, #7ac12f 100%); }
+  background-image: url(/python/media/images/theme/theme-tile.svg), linear-gradient(to bottom, #466f1b 0px, #7ac12f 100%); }
   .feedback h2 {
     font-size: 6rem;
     margin: 0;
@@ -316,49 +316,55 @@ ul {
     font-size: 3em;
     font-family: "Lunchbox";
     text-align: center; }
-  .chapter-links .chapter a {
-    display: block;
-    border: 1px solid white;
-    border-radius: 3px;
-    margin-top: 70px;
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-    text-align: center; }
-  .chapter-links .chapter .badge {
-    width: 120px;
-    height: 120px;
-    border-radius: 100%;
-    border: 8px solid #FFFFFF;
-    overflow: hidden;
-    margin-top: -60px;
-    background-image: linear-gradient(to top, #466f1b 0px, #7ac12f 100%);
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-    position: relative; }
-    .chapter-links .chapter .badge img {
-      width: 70%;
-      height: 70%;
-      position: absolute;
-      top: 15%;
-      left: 15%;
-      opacity: 0.8; }
-  .chapter-links .chapter .title {
-    display: block;
-    font-weight: bold;
-    font-size: 1em;
-    font-family: "Lunchbox"; }
-  .chapter-links .chapter .length {
-    font-size: 0.6em; }
-  .chapter-links .chapter .subtitle {
-    display: block;
-    font-style: italic;
-    font-size: 1em; }
-  .chapter-links p {
-    text-align: left;
-    margin-top: 10px;
-    font-size: 14px; }
+
+/* the tile block */
+.tile-link a {
+  display: block;
+  border: 1px solid white;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #666; }
+.tile-link .header-image {
+  width: 100%; }
+.tile-link .title {
+  display: block;
+  font-weight: bold;
+  font-size: 1.8em;
+  font-family: "Lunchbox";
+  margin-top: 15px; }
+.tile-link .length {
+  font-size: 1em; }
+.tile-link .subtitle {
+  display: block;
+  font-style: italic;
+  font-size: 1em; }
+.tile-link p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px; }
+.tile-link .badge {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  border: 8px solid #FFFFFF;
+  overflow: hidden;
+  margin-top: -60px;
+  background-image: linear-gradient(to top, #466f1b 0px, #7ac12f 100%);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  position: relative; }
+  .tile-link .badge img {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    opacity: 0.8; }
 
 .highlight {
   background: #ffffff; }

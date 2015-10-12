@@ -30,8 +30,8 @@
   font-family: 'LunchBox';
   font-weight: bold;
   font-style: normal;
-  src: url("/Building-with-Python/assets/fonts/2ACF7E_0_0.eot");
-  src: url("/Building-with-Python/assets/fonts/2ACF7E_0_0.eot?#iefix") format("embedded-opentype"), url("/Building-with-Python/assets/fonts/2ACF7E_0_0.woff") format("woff"), url("/Building-with-Python/assets/fonts/2ACF7E_0_0.ttf") format("truetype"), url("/Building-with-Python/assets/fonts/2ACF7E_0_0.svg#wf") format("svg"); }
+  src: url("/python/assets/fonts/2ACF7E_0_0.eot");
+  src: url("/python/assets/fonts/2ACF7E_0_0.eot?#iefix") format("embedded-opentype"), url("/python/assets/fonts/2ACF7E_0_0.woff") format("woff"), url("/python/assets/fonts/2ACF7E_0_0.ttf") format("truetype"), url("/python/assets/fonts/2ACF7E_0_0.svg#wf") format("svg"); }
 .container > .navbar-header,
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
