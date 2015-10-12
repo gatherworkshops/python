@@ -1,9 +1,7 @@
 # Workshop Description
 
-One you've forked this project, write a paragraph or two about this workshop.
+This project contains all the code required to build and run the Jekyll site "Building with Python", which contains all Gather Workshops resources related to the teaching of Python programming.
 
-Also make sure that you provide a link to the workshop below.
-
-You can view the live site [here](http://gatherworkshops.github.io/github-repo-name).
+You can view the live site [here](http://gatherworkshops.github.io/python).
 
 
