@@ -19,25 +19,34 @@ levelthree:
   - name: welcome
     subtitle: Course Intro
     title: Welcome
+    description: Course plan and intro
 
   - name: review
     subtitle: Chapter One
     title: Skills Review
+    description: What we already know
 
   - name: gui
     subtitle: Chapter Two
     title: User Interfaces
+    description: Available Tkinter Widgets
 
   - name: layouts
     subtitle: Chapter Three
     title: Layouts
+    description: Coming Soon
+    published: false
 
   - name: events
     subtitle: Chapter Four
     title: Interaction
+    description: Coming Soon
+    published: false
 
   - name: classes
     subtitle: Chapter Three
     title: Classes
+    description: Coming Soon
+    published: false
 
 

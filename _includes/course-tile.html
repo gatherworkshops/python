@@ -1,6 +1,10 @@
 <div class="tile-link col-md-4">
 
+	{% if course.published == false %}
+	<a>
+    {% else %}
     <a href="{{ site.baseurl }}/courses/{{ course.name }}">
+    {% endif %}
 
         <img class="header-image" src="{{ site.baseurl }}/media/images/tiles/{{ course.name }}.jpg">
         <span class="title">{{ course.title }}</span>

@@ -9,31 +9,36 @@ courses:
       title: Hour of Code
       length: 1 hour
       description: Coming Soon
+      published: false
 
     - name: taster
       title: Taster Workshop
       length: 2.5 hours
       description: Coming Soon
+      published: false
 
     - name: workshop
       title: Full Workshop
       length: 5 hours
       description: Coming Soon
+      published: false
 
     - name: levelone
       title: NCEA Level One
       length: 10 hours
       description: Coming Soon
+      published: false
 
     - name: leveltwo
       title: NCEA Level Two
       length: 10 hours
       description: Coming Soon
+      published: false
 
     - name: levelthree
       title: NCEA Level Three
       length: 10 hours
-      description: Available Now
+      description: Building Graphical Python Apps
 ---
 
 <div class="container page-header">
@@ -48,7 +53,7 @@ courses:
 
         {% for course in page.courses %}
 
-            {% include tile-link.html %}
+            {% include course-tile.html %}
 
         {% endfor %}
 
