@@ -153,22 +153,6 @@ $titleTextShadow: 2px 2px 1px darken($theme-color, 20%);
 		}
 	}
 
-	.codeblock-title {
-		  text-align: left;
-		  background: #fff;
-		  margin-bottom: 0 !important;
-		  padding: 10px;
-		  font-size: 70%;
-		  border-radius: 5px 5px 0 0;
-		  z-index: 50;
-		  border-bottom: 1px solid rgba(0,0,0,0.1);
-
-		  code {
-		  	font-weight: bold;
-		  	font-size: 120%;
-		  }
-	}
-
 	.slides {
 
 		// all slides
