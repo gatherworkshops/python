@@ -1,15 +1,18 @@
-.chapter .slideshow {
-	padding-top: 50px;
+body.chapter {
+	background-color: $theme-color-dark;
+
+	.slideshow {
+		background-color: #f3f3da;
+	}
 }
 
-.chapter .page-content>article {
+.content-panel {
 
-	margin-top: 20px;
-	margin-bottom: 20px;
-	background-color: rgba(255, 255, 255, 0.9);
-	border: 1px solid white;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	background-color: rgba(255, 255, 255, 1);
 	border-radius: 3px;
-	padding: 15px 0px;
+	padding: 30px;
 
 	h2 {
 		margin: 0;
@@ -22,5 +25,9 @@
 
 	.difficulty {
 		text-transform: uppercase;
+	}
+
+	&>img {
+		float: right;
 	}
 }
