@@ -28,7 +28,7 @@ levelthree:
 
   - name: gui
     subtitle: Chapter Two
-    title: User Interfaces
+    title: Graphical Widgets
     description: Available Tkinter Widgets
 
   - name: layouts
