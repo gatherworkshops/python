@@ -157,17 +157,17 @@ slides:
 
 ##########
 
+
   - title: challenge
     class: centered-slide
     content: |
       
-      ## Challenge
+      ## Challenge: <br>Debug the Burger Builder
 
       Take this piece of code and make it work correctly:
 
-      ```language-python
-      TODO
-      ```
+      [Click Here To Open](https://repl.it/BPtF/4)
+      <!-- .element target="_blank" -->
 
 
 ##########
