@@ -34,8 +34,7 @@ levelthree:
   - name: layouts
     subtitle: Chapter Three
     title: Layouts
-    description: Coming Soon
-    published: false
+    description: Using The Grid Manager
 
   - name: events
     subtitle: Chapter Four
