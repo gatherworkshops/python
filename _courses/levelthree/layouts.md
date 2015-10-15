@@ -383,3 +383,18 @@ All three types of geometry managers demonstrated on one page, with both code an
 Highly recommended.
 
 </section>
+
+
+
+<section class="container content-panel">
+
+## Grid Manager Reference
+
+[The Tkinter Grid Geometry Manager](http://effbot.org/tkinterbook/grid.htm)
+
+A focus on the grid manager with a few examples, and a settings reference at the bottom.
+
+Worth a read when you have a few minutes.
+
+</section>
+
