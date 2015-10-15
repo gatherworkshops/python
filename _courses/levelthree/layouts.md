@@ -1,5 +1,6 @@
 ---
 layout: chapter
+bodyclass: chapter
 title: Layouts
 course: levelthree
 
@@ -369,3 +370,16 @@ slides:
 
 
 ---
+
+
+<section class="container content-panel">
+
+## Geometry Managers Demo Page
+
+[Tkinter Geometry Managers](http://userpages.umbc.edu/~dhood2/courses/cmsc433/spring2010/?section=Notes&topic=Python&notes=94)
+
+All three types of geometry managers demonstrated on one page, with both code and screenshots of the resulting apps.
+
+Highly recommended.
+
+</section>
