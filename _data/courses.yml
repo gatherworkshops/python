@@ -39,12 +39,29 @@ levelthree:
   - name: events
     subtitle: Chapter Four
     title: Interaction
+    description: Mouse and Keyboard Events
+
+  - name: data
+    subtitle: Chapter Five
+    title: Data Management
+    description: Classes and Complex Data
+    published: false
+
+  - name: planning
+    subtitle: Chapter Six
+    title: Planning
     description: Coming Soon
     published: false
 
-  - name: classes
-    subtitle: Chapter Three
-    title: Classes
+  - name: building
+    subtitle: Chapter Seven
+    title: Build and Test
+    description: Coming Soon
+    published: false
+
+  - name: submission
+    subtitle: Chapter Eight
+    title: Submission
     description: Coming Soon
     published: false
 
