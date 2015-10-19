@@ -18,7 +18,7 @@ slides:
 
       # Data Management
       _Classes and Dynamic Lists_
-      
+
 
 ##########
 
@@ -27,6 +27,9 @@ slides:
       ## Challenge
 
       Build a To-Do app with add and remove
+
+
+
 
 
 ##########
@@ -44,11 +47,9 @@ slides:
       ![Thumbs Up!]([[BASE_URL]]/assets/images/thumbs-up.svg)
       <!-- .element height="200" -->
 
-      ## Graphical Interfaces: Complete!
+      ## Data Management: Complete!
 
-      Great, now it's time for the fun stuff...
-
-      [Take me to the next chapter!](../jquerybasics)
+      Well done, now let's build an app from the ground up...
 
 
 ---
