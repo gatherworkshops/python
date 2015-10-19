@@ -81,11 +81,11 @@ slides:
       ```language-python
       field_heading = tkinter.Label(window)
       field_heading.config(text="Field Name", font="Verdana 10 bold")
-      field_heading.grid(row=0, col=0)
+      field_heading.grid(row=0, column=0)
 
       value_heading = tkinter.Label(window)
       value_heading.config(text="Value", font="Verdana 10 bold")
-      value_heading.grid(row=0, col=1)
+      value_heading.grid(row=0, column=1)
       ```
 
       Your app should have two bold labels side by side
@@ -231,7 +231,7 @@ slides:
       <!-- .element height="400" -->
 
       Open up `membermanager.py`.
-      
+
       Now we will use the same concept to create<br>
       a more complex layout.
 
