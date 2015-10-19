@@ -76,7 +76,7 @@ slides:
 
       ## Simple Grid
 
-      Create a new app with an app window, then add these two labels:
+      Open up `simplegrid.py` and add these two labels:
 
       ```language-python
       field_heading = tkinter.Label(window)
@@ -230,8 +230,12 @@ slides:
       ![Complex Grid]([[BASE_URL]]/media/images/slidecontent/complex-grid.svg)
       <!-- .element height="400" -->
 
+      Open up `membermanager.py`.
+      
       Now we will use the same concept to create<br>
       a more complex layout.
+
+
 
 
 ##########
