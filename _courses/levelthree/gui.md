@@ -42,59 +42,6 @@ slides:
       we can use to build our apps.
 
 
-      
-
-##########
-
-
-  - title: newproject
-    class: centered-slide
-    
-    notes: |
-
-      Create a new project
-
-    content: |
-      ## New Project
-
-      Create a new project
-
-
-##########
-
-
-  - title: projectsettings
-    class: centered-slide
-
-    notes: |
-      The pre-set settings should be fine, just check that the latest version of Python 3 is selected in the dropdown.
-
-      You can also use these settings to change where your project will be saved on your computer.
-
-    content: |
-
-      ## Project Settings
-
-      Choose where to save your project,<br>
-      and the latest version of Python3
-
-
-##########
-
-
-  - title: appfile
-    class: centered-slide
-
-    notes: |
-
-      Create a new file in your project. This will contain your app code, and will be the file we run to start up our app.
-
-    content: |
-      ## App Module
-
-      Create a new file called `app.py`
-
-
 ##########
 
 
@@ -113,7 +60,7 @@ slides:
       
       ## Window
 
-      Create a window for your app:
+      Open `awesomeness.py` and create a window for your app:
 
       ```language-python
       import tkinter
@@ -177,7 +124,7 @@ slides:
       window.geometry("300x300")
 
       label = tkinter.Label(window)
-      label["text"] = "Hello"
+      label.config(text="Hello")
       label.grid()
 
       window.mainloop()
@@ -205,11 +152,11 @@ slides:
 
       ```language-python
       label = tkinter.Label(window)
-      label["text"] = "Hello"
+      label.config(text="Hello")
       label.grid()
 
       button = tkinter.Button(window)
-      button["text"] = "Click Me!"
+      button.config(text="Click Me!")
       button.grid()
 
       window.mainloop()
@@ -237,7 +184,7 @@ slides:
 
       ```language-python
       button = tkinter.Button(window)
-      button["text"] = "Click Me!"
+      button.config(text="Click Me!")
       button.grid()
 
       entry = tkinter.Entry(window)
@@ -371,7 +318,7 @@ None of note
 
 ```python
 my_label = tkinter.Label(app_window)
-my_label["text"] = "Hello!"
+my_label.config(text="Hello!")
 my_label.grid()
 ```
 
@@ -379,9 +326,7 @@ my_label.grid()
 
 ```python
 my_label = tkinter.Label(app_window)
-my_label["text"] = "Hello!"
-my_label["fg"] = "red"
-my_label["font"] = "Comic Sans MS", 16, "bold"
+my_label.config(text="Hello!", fg="red", font="Comic Sans MS 16 bold")
 my_label.grid()
 ```
 
