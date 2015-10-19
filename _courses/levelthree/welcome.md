@@ -26,6 +26,7 @@ slides:
       _Level 3: Create a complex computer program for a specified task_
 
 
+##########
 
 
   - title: mentors
@@ -50,6 +51,7 @@ slides:
       and you can ask them (almost) anything!
 
 
+##########
 
 
   - title: introductions
@@ -79,6 +81,7 @@ slides:
       <!-- .element class="flex-list" -->
 
 
+##########
 
 
   - title: schedule
@@ -100,15 +103,18 @@ slides:
       ## Schedule
       <br>
 
-      **Widgets, Layouts and Events**
+      **Widgets and Layouts**
 
       _Morning Break_
 
-      **Classes and Modules**
+      **Events and Data Management**
 
       _Lunch Break_
 
-      **Advanced Widgets and Layouts**
+      **Submission Requirements**
+
+
+##########
 
 
   - title: python3
@@ -129,6 +135,9 @@ slides:
       [Download link](https://www.python.org/downloads/)
 
 
+##########
+
+
   - title: pycharm
     class: centered-slide
 
@@ -146,6 +155,8 @@ slides:
 
       [Download link](https://www.jetbrains.com/pycharm-edu/download/)
 
+
+##########
 
 
   - title: summary
