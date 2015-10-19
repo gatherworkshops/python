@@ -158,6 +158,22 @@ slides:
 
 ##########
 
+  - title: starterkit
+    
+    notes: |
+
+      Download and unzip the starter kit. This zip file contains all the starter code for the challenges in this workshop.
+
+    content: |
+
+      ## Sample Code
+
+      Download and unzip the starter code for this workshop.
+
+      [Download Link]([[BASE_URL]]/media/zip/pythonchallenges.zip)
+
+##########
+
 
   - title: summary
     class: centered-slide
