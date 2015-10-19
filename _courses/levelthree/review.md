@@ -162,12 +162,16 @@ slides:
     class: centered-slide
     content: |
       
+      ![Burger]([[BASE_URL]]/media/images/icons/burger.svg)
+      <!-- .element height="200" -->
+
       ## Challenge: <br>Debug the Burger Builder
 
-      Take this piece of code and make it work correctly:
+      Open up `burgerbuilder.py` and make it work better:
 
-      [Click Here To Open](https://repl.it/BPtF/4)
-      <!-- .element target="_blank" -->
+      1. All unchanging values should be stored in constants.
+      2. The app should apologise if it doesn't have a requested filling.
+      3. The app should be able to collect as many orders as needed.
 
 
 ##########
@@ -193,3 +197,6 @@ slides:
 
 
 ---
+
+
+[Double Burger by Arthur Shlain from the Noun Project](https://thenounproject.com/search/?q=burger&i=190703)
