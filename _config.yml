@@ -1,8 +1,12 @@
 name: Building with Python
 baseurl: "/python"
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
 exclude: ["node_modules", "Gemfile", "Gruntfile.js", "package.json", "README.md"]
+
+
+kramdown:
+  input: GFM
+  enable_coderay: false
 
 sass:
     sass_dir: _sass

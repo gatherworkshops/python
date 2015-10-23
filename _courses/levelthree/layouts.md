@@ -57,7 +57,8 @@ slides:
 
       ## Grid Layouts   
 
-      Grid layouts are used most frequently,<br> so we will focus on the Grid Manager 
+      Grid layouts are used most frequently,
+      so we will focus on the Grid Manager 
 
 
 ##########
@@ -78,7 +79,7 @@ slides:
 
       Open up `simplegrid.py` and add these two labels:
 
-      ```language-python
+      ```python
       field_heading = tkinter.Label(window)
       field_heading.config(text="Field Name", font="Verdana 10 bold")
       field_heading.grid(row=0, column=0)
@@ -89,7 +90,7 @@ slides:
       ```
 
       Your app should have two bold labels side by side
-      <!-- .element class="checkpoint" -->
+      {: .checkpoint }
 
 
 ##########
@@ -109,7 +110,7 @@ slides:
       ![Simple Grid Demo]([[BASE_URL]]/media/images/slidecontent/simple-grid-demo.svg)
 
       Add widgets so your app looks (sort of) like the example
-      <!-- .element class="checkpoint" -->
+      {: .checkpoint }
 
 
 ##########
@@ -137,13 +138,13 @@ slides:
 
       ![Simple Grid Demo]([[BASE_URL]]/media/images/slidecontent/resizing.svg)
 
-      ```lang-python
+      ```python
       window.columnconfigure(0, weight=0)
       window.columnconfigure(1, weight=1)
       ```
 
       Your grid should grow to fit a resized window
-      <!-- .element class="checkpoint" -->
+      {: .checkpoint }
 
 
 ##########
@@ -162,8 +163,7 @@ slides:
 
       Widgets are aligned within cells using compass points:
 
-      ![Sticky Locations]([[BASE_URL]]/media/images/slidecontent/stickiness.svg)
-      <!-- .element height="400" -->
+      ![Sticky Locations]([[BASE_URL]]/media/images/slidecontent/stickiness.svg){: height="400" }
 
 
 ##########
@@ -182,13 +182,13 @@ slides:
 
       Here's how you would stretch an entry field:
 
-      ```language-python
+      ```python
       firstname_entry = tkinter.Entry(window)
       firstname_entry.grid(row=1, col=1, sticky="we")
       ```
 
       Your "First Name" entry should resize with the window
-      <!-- .element class="checkpoint" -->
+      {: .checkpoint }
 
 
 ##########
@@ -207,11 +207,10 @@ slides:
 
       Align your form widgets to look like this:
 
-      ![Sticky Form]([[BASE_URL]]/media/images/slidecontent/sticky-form.svg)
-      <!-- .element height="300" -->
+      ![Sticky Form]([[BASE_URL]]/media/images/slidecontent/sticky-form.svg){: height="300" }
 
       Your form should resize smartly, like in the picture
-      <!-- .element class="checkpoint" -->
+      {: .checkpoint }
 
 
 ##########
@@ -227,12 +226,11 @@ slides:
     content: |
       ## Complex Grid
 
-      ![Complex Grid]([[BASE_URL]]/media/images/slidecontent/complex-grid.svg)
-      <!-- .element height="400" -->
+      ![Complex Grid]([[BASE_URL]]/media/images/slidecontent/complex-grid.svg){: height="400" }
 
       Open up `membermanager.py`.
 
-      Now we will use the same concept to create<br>
+      Now we will use the same concept to create
       a more complex layout.
 
 
@@ -255,10 +253,9 @@ slides:
     content: |
       ## Divide into Cells
 
-      ![Dividing Up a Complex Grid]([[BASE_URL]]/media/images/slidecontent/divide-into-cells.svg)
-      <!-- .element height="400" -->
+      ![Dividing Up a Complex Grid]([[BASE_URL]]/media/images/slidecontent/divide-into-cells.svg){: height="400" }
 
-      Divide your layout into cells by drawing lines<br>
+      Divide your layout into cells by drawing lines
       between neighbouring widgets.
 
 
@@ -277,10 +274,9 @@ slides:
     content: |
       ## Identify Content Cells
 
-      ![Identifying Content Cells]([[BASE_URL]]/media/images/slidecontent/find-content-cells.svg)
-      <!-- .element height="400" -->
+      ![Identifying Content Cells]([[BASE_URL]]/media/images/slidecontent/find-content-cells.svg){: height="400" }
 
-      Highlight every cell which contains<br> 
+      Highlight every cell which contains
       the top left corner of a widget.
 
 
@@ -297,10 +293,9 @@ slides:
     content: |
       ## Find Spanning Cells
 
-      ![Measuring Rowspan and Colspan]([[BASE_URL]]/media/images/slidecontent/find-spanning-cells.svg)
-      <!-- .element height="400" -->
+      ![Measuring Rowspan and Colspan]([[BASE_URL]]/media/images/slidecontent/find-spanning-cells.svg){: height="400" }
 
-      Highlight row spans and column spans<br> 
+      Highlight row spans and column spans
       for any widgets that need it.
 
 
@@ -320,15 +315,15 @@ slides:
 
       You can now use the information to arrange the widgets in the grid:
 
-      ```language-python
+      ```python
       title_label = tkinter.Label(window)
       title_label.config(text="Super Duper Member Manager")
       title_label.grid(row=0, column=0, columnspan=4)
       ```
-      <!-- .element data-line="1-2" -->
+      {: data-line="1-2" }
 
       Apply the correct row, column and spans to all widgets
-      <!-- .element class="checkpoint" -->
+      {: .checkpoint }
 
 ##########
 
@@ -344,10 +339,9 @@ slides:
 
       ## Challenge:<br>Happy Shopper
 
-      ![Happy Shopper Challenge]([[BASE_URL]]/media/images/slidecontent/grid-challenge.svg)
-      <!-- .element height="400" -->
+      ![Happy Shopper Challenge]([[BASE_URL]]/media/images/slidecontent/grid-challenge.svg){: height="400" }
 
-      Create a new app called `happyshopper.py`<br>
+      Create a new app called `happyshopper.py`
       and reproduce this grid layout.
 
 
@@ -363,20 +357,18 @@ slides:
 
     content: |
 
-      ![Thumbs Up!]([[BASE_URL]]/assets/images/thumbs-up.svg)
-      <!-- .element height="200" -->
+      ![Thumbs Up!]([[BASE_URL]]/assets/images/thumbs-up.svg){: height="200" }
 
-      ## Graphical Interfaces: Complete!
+      ## Layouts: Complete!
 
       Cool, now we need to make it all actually work...
-
       [Take me to the next chapter!](events.html)
 
 
 ---
 
 
-<section class="container content-panel">
+<section class="container content-panel" markdown="1">
 
 ## Geometry Managers Demo Page
 
@@ -390,7 +382,7 @@ Highly recommended.
 
 
 
-<section class="container content-panel">
+<section class="container content-panel" markdown="1">
 
 ## Grid Manager Reference
 

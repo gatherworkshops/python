@@ -62,14 +62,14 @@ slides:
 
       Open `awesomeness.py` and create a window for your app:
 
-      ```language-python
+      ```python
       import tkinter
       window = tkinter.Tk()
       window.mainloop()
       ```
 
       You should see a window when you run your app.
-      <!-- .element class="checkpoint" -->
+      {:.checkpoint}
 
 
 ##########
@@ -89,7 +89,7 @@ slides:
 
       Customise your app window with additional options:
 
-      ```language-python
+      ```python
       import tkinter
       window = tkinter.Tk()
 
@@ -98,10 +98,10 @@ slides:
 
       window.mainloop()
       ```
-      <!-- .element data-line="1-2, 7" -->
+      {: data-line="1-2, 7" }
 
       Your window should now be bigger and have a title
-      <!-- .element class="checkpoint" -->
+      {:.checkpoint}
 
 
 ##########
@@ -119,7 +119,7 @@ slides:
 
       Create a label and add it to your window:
 
-      ```language-python
+      ```python
       window.title("App of Awesomeness")
       window.geometry("300x300")
 
@@ -129,10 +129,10 @@ slides:
 
       window.mainloop()
       ```
-      <!-- .element data-line="1-2, 8" -->
+      {: data-line="1-2, 8" }
 
       Your window should now contain a label "Hello"
-      <!-- .element class="checkpoint" -->
+      {:.checkpoint}
 
 
 #########
@@ -150,7 +150,7 @@ slides:
       
       Create a button and add it to your window:
 
-      ```language-python
+      ```python
       label = tkinter.Label(window)
       label.config(text="Hello")
       label.grid()
@@ -161,10 +161,10 @@ slides:
 
       window.mainloop()
       ```
-      <!-- .element data-line="1-3, 9" -->
+      {: data-line="1-3, 9" }
 
       Your window should now contain a button
-      <!-- .element class="checkpoint" -->
+      {: .checkpoint }
 
 
 ##########
@@ -182,7 +182,7 @@ slides:
 
       Add a text entry box to your window:
 
-      ```language-python
+      ```python
       button = tkinter.Button(window)
       button.config(text="Click Me!")
       button.grid()
@@ -192,10 +192,10 @@ slides:
 
       window.mainloop()
       ```
-      <!-- .element data-line="1-3, 8" -->
+      {: data-line="1-3, 8" }
 
       Your window should now contain a text entry area
-      <!-- .element class="checkpoint" -->
+      {: .checkpoint }
 
 
 ##########
@@ -213,7 +213,7 @@ slides:
 
       Add a list box to your app:
 
-      ```language-python
+      ```python
       entry = tkinter.Entry(window)
       entry.grid()
 
@@ -222,10 +222,10 @@ slides:
 
       window.mainloop()
       ```
-      <!-- .element data-line="1-2, 7" -->
+      {: data-line="1-2, 7" }
 
       Your window should now contain a list box
-      <!-- .element class="checkpoint" -->
+      {: .checkpoint }
 
 
 ##########
@@ -240,8 +240,7 @@ slides:
 
       ## Challenge:<br> Application Form
       
-      ![Cat App Example]([[BASE_URL]]/media/images/slidecontent/cat-app.png)
-      <!-- .element height="445" -->
+      ![Cat App Example]([[BASE_URL]]/media/images/slidecontent/cat-app.png){: height="445"}
 
       Recreate this app using what you have learned.
 
@@ -260,8 +259,7 @@ slides:
 
     content: |
 
-      ![Thumbs Up!]([[BASE_URL]]/assets/images/thumbs-up.svg)
-      <!-- .element height="200" -->
+      ![Thumbs Up!]([[BASE_URL]]/assets/images/thumbs-up.svg){: height="200"}
 
       ## Graphical Widgets: Complete!
 
@@ -273,7 +271,7 @@ slides:
 ---
 
 
-<section class="container content-panel">
+<section class="container content-panel" markdown="1">
 
 ## App Window
 
@@ -310,7 +308,7 @@ None of note
 </section>
 
 
-<section class="container content-panel">
+<section class="container content-panel" markdown="1">
 
 ## Label
 
@@ -344,7 +342,7 @@ None of note
 
 
 
-<section class="container content-panel">
+<section class="container content-panel" markdown="1">
 
 ## Entry
 
@@ -372,7 +370,7 @@ None of note
 
 
 
-<section class="container content-panel">
+<section class="container content-panel" markdown="1">
 
 ## Text
 
@@ -400,7 +398,7 @@ None of note
 
 
 
-<section class="container content-panel">
+<section class="container content-panel" markdown="1">
 
 ## Button
 
@@ -428,7 +426,7 @@ None of note
 
 
 
-<section class="container content-panel">
+<section class="container content-panel" markdown="1">
 
 ## Listbox
 

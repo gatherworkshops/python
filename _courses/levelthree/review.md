@@ -55,7 +55,7 @@ slides:
 
       ## Type Casting
 
-      string to integer<br>
+      string to integer
       string to boolean
 
 
@@ -77,7 +77,7 @@ slides:
 
       ## User Input
 
-      ```language-python
+      ```python
       user_input = input("What is your name?")
       ```
 
@@ -99,7 +99,7 @@ slides:
 
       ## Lists and Dictionaries
 
-      ```language-python
+      ```python
       names = [
         "Aroha"
         "Billy",
@@ -107,7 +107,7 @@ slides:
       ]
       ```
 
-      ```language-python
+      ```python
       scores = {
         "Alistair": 30,
         "Beyonce": 70,
@@ -136,7 +136,7 @@ slides:
 
       ## Loops
 
-      Do the same thing over...<br>
+      Do the same thing over...
       and over... and over...
 
 ##########
@@ -162,8 +162,7 @@ slides:
     class: centered-slide
     content: |
       
-      ![Burger]([[BASE_URL]]/media/images/icons/burger.svg)
-      <!-- .element height="200" -->
+      ![Burger]([[BASE_URL]]/media/images/icons/burger.svg){: height="200"}
 
       ## Challenge: <br>Debug the Burger Builder
 
@@ -186,8 +185,7 @@ slides:
 
     content: |
 
-      ![Thumbs Up!]([[BASE_URL]]/assets/images/thumbs-up.svg)
-      <!-- .element height="200" -->
+      ![Thumbs Up!]([[BASE_URL]]/assets/images/thumbs-up.svg){: height="200"}
 
       ## Skills Review: Complete!
 
