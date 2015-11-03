@@ -146,8 +146,7 @@ slides:
 
       window.mainloop()
       ```
-      
-      {: data-line="1-2, 12"}
+      {: data-line="1-2, 7-8, 10-12"}
 
       This is just an example - we'll do a demo next!
 
@@ -164,7 +163,7 @@ slides:
 
       ## Events Demo
 
-      Open up `eventsdemo.py`<br> 
+      Open up `eventsdemo.py`
       so we can add some event handling to it.
 
  
@@ -188,7 +187,7 @@ slides:
       hello_button.bind("<Button>", say_hello)
       hello_button.grid()
       ```   
-      <!-- .element data-line="1-2, 4" -->
+      {: data-line="1-2, 4" }
 
       Clicking the button should print "Hello!" in the console.
       {: .checkpoint}
@@ -224,7 +223,7 @@ slides:
 
       ## Keyboard Events
 
-      Bind the **name entry** box to the `<Return>` event,<br>
+      Bind the **name entry** box to the `<Return>` event,
       so that pressing "enter" does the same as clicking the button.
 
 
@@ -240,7 +239,7 @@ slides:
     content: |
       ## Challenge: Stuff To Do
 
-      Complete `todo.py` with events and functionality<br> 
+      Complete `todo.py` with events and functionality
       so that it is a working To-Do app.
 
 
@@ -256,13 +255,11 @@ slides:
 
     content: |
 
-      ![Thumbs Up!]([[BASE_URL]]/assets/images/thumbs-up.svg)
-      <!-- .element height="200" -->
+      ![Thumbs Up!]([[BASE_URL]]/assets/images/thumbs-up.svg){: height="200" }
 
       ## User Interaction: Complete!
 
       Groovy, but what about more complex data...
-
       [Take me to the next chapter!](data.html)
 
 
