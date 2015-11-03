@@ -44,8 +44,7 @@ slides:
 
     content: |
 
-      ![Thumbs Up!]([[BASE_URL]]/assets/images/thumbs-up.svg)
-      <!-- .element height="200" -->
+      ![Thumbs Up!]([[BASE_URL]]/assets/images/thumbs-up.svg){: height="200" }
 
       ## Data Management: Complete!
 
