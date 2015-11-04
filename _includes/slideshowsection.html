@@ -3,7 +3,6 @@
 
 <!-- slide -->
 <section class="{{ slide.class }}"
-	data-markdown
 		
 	{% if slide.class == 'title-slide' %}
 		id="{{ slide.section }}"
@@ -15,16 +14,12 @@
 		id="{{ slide.title }}"
 	{% endif %}
 	>
-    
-    <script type="text/template">
 		
-{{ slide.content | replace: '[[BASE_URL]]', site.baseurl}}
+{{ slide.content | replace: '[[BASE_URL]]', site.baseurl | markdownify }}
 
-Note:
-
+<aside class="notes">
 {{ slide.notes }}
-
-	</script>
+</aside>
 
 </section>
 

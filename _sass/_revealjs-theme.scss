@@ -77,17 +77,15 @@ $titleTextShadow: 2px 2px 1px darken($theme-color, 20%);
 		margin-bottom: 0.8em;
 	}
 
-	pre {
-		width: 100%;
-		margin-bottom: 2em;
+	// inline code within paragraphs
+	code {
+		background-color: rgba(255,255,255,0.6);
+		padding: 6px;
+	}
 
-		code {
-			padding: 0 10px;
-		}
-
-		&[data-line] code {
-			padding-left: 2em;
-		}
+	pre code,
+	pre[data-line] code {
+    	padding: 0 1em; /* from prism... we want prism style not reveal style */
 	}
 
 	.line-highlight {
@@ -98,39 +96,8 @@ $titleTextShadow: 2px 2px 1px darken($theme-color, 20%);
 		&[data-end]::after {
 			content: "";
 		}
-	}
 
-	[data-linestyle="delete"] .line-highlight {
-		border-left: 10px solid #D00;
-		background: rgba(255, 0, 0, 0.1);
-	}
 
-	// code block displayed on slides
-	.highlight {
-		  border-radius: 0 0 5px 5px;
-
-		  pre {
-			margin: 0 0;
-			margin-bottom: 1em;
-			font-size: 100%;
-			width: 100%;
-			box-shadow: none;
-
-			code {
-				padding: 10px;
-				font-size: inherit;
-				max-height: none;
-				
-			}
-		}
-	}
-
-	
-
-	// inline code within paragraphs
-	code {
-		background-color: rgba(255,255,255,0.6);
-		padding: 6px;
 	}
 
 	.codepen-embed {

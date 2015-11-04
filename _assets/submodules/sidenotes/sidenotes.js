@@ -35,7 +35,7 @@ window.Sidenotes || (window.Sidenotes = function (Reveal) {
 	function copyNotes() {
 		slide = Reveal.getCurrentSlide();
 		notes = $(slide).find('aside.notes').html();
-	    $('.sidenotes .content').html( marked(notes) );
+	    $('.sidenotes .content').html(notes);
 	}
 
 	/*

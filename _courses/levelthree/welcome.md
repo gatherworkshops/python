@@ -47,7 +47,7 @@ slides:
 
       ## Say hi to your mentors!
 
-      Your mentors are here to help if you get stuck,<br>
+      Your mentors are here to help if you get stuck,
       and you can ask them (almost) anything!
 
 
@@ -77,8 +77,7 @@ slides:
       - Favourite thing?
       - Super power?
       - First name?
-      
-      <!-- .element class="flex-list" -->
+      {: .flex-list}
 
 
 ##########
@@ -101,7 +100,6 @@ slides:
     content: |
 
       ## Schedule
-      <br>
 
       **Widgets and Layouts**
 
@@ -125,14 +123,13 @@ slides:
 
     content: |
 
-      ![Python Logo]([[BASE_URL]]/media/images/slidecontent/python.svg)
-      <!-- .element height="200" -->
+      ![Python Logo]([[BASE_URL]]/media/images/slidecontent/python.svg){: height="200"}
 
       ## Python 3
 
       Ensure you are running Python 3
 
-      [Download link](https://www.python.org/downloads/)
+      [Download link](https://www.python.org/downloads/){: target="_blank"}
 
 
 ##########
@@ -146,14 +143,13 @@ slides:
 
     content: |
 
-      ![PyCharm Logo]([[BASE_URL]]/media/images/slidecontent/pycharm.png)
-      <!-- .element height="200" -->
+      ![PyCharm Logo]([[BASE_URL]]/media/images/slidecontent/pycharm.png){: height="200"}
 
       ## PyCharm Edu
 
       We will be using Pycharm Edu edition as our IDE
 
-      [Download link](https://www.jetbrains.com/pycharm-edu/download/)
+      [Download link](https://www.jetbrains.com/pycharm-edu/download/){: target="_blank"}
 
 
 ##########
@@ -170,7 +166,7 @@ slides:
 
       Download and unzip the starter code for this workshop.
 
-      [Download Link]([[BASE_URL]]/media/zip/pythonchallenges.zip)
+      [Download Link]([[BASE_URL]]/media/zip/pythonchallenges.zip){: target="_blank"}
 
 ##########
 
@@ -184,13 +180,11 @@ slides:
 
     content: |
 
-      ![Thumbs Up!]([[BASE_URL]]/assets/images/thumbs-up.svg)
-      <!-- .element height="200" -->
+      ![Thumbs Up!]([[BASE_URL]]/assets/images/thumbs-up.svg){: height="200"}
 
       ## Intro Stuff: Complete!
 
       Great, now it's time for the fun stuff...
-
       [Take me to the next chapter!](review.html)
 
 

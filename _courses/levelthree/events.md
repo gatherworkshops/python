@@ -35,7 +35,7 @@ slides:
 
       ## Python Events
 
-      An "event" in Python is when something<br> 
+      An "event" in Python is when something 
       happens that our app can react to.
 
 
@@ -53,7 +53,7 @@ slides:
       
       ## Widget Events
 
-      Tkinter Widgets trigger different types of events<br>
+      Tkinter Widgets trigger different types of events
       when a user interacts with the app.
 
 
@@ -74,20 +74,16 @@ slides:
 
       The most common types of events are:
 
-      - ![A Computer Mouse]([[BASE_URL]]/media/images/icons/mouse.svg)
-        <!-- .element height="150" -->
-        <br>**Mouse Events**<br>
+      - ![A Computer Mouse]([[BASE_URL]]/media/images/icons/mouse.svg){: height="150"}
+        **Mouse Events**
         click, move, hover
-      - ![Gaming Keys]([[BASE_URL]]/media/images/icons/gaming-keys.svg)
-        <!-- .element height="150" -->
-        <br>**Keyboard Events**<br>
+      - ![Gaming Keys]([[BASE_URL]]/media/images/icons/gaming-keys.svg){: height="150"}
+        **Keyboard Events**
         key down, key up
-      - ![Resizing A Window]([[BASE_URL]]/media/images/icons/resize.svg)
-        <!-- .element height="150" -->
-        <br>**Change Events**<br>
+      - ![Resizing A Window]([[BASE_URL]]/media/images/icons/resize.svg){: height="150"}
+        **Change Events**
         resize, select, focus
-
-      <!-- .element class="flex-list" -->
+      {: .flex-list}
 
 
 ##########
@@ -119,8 +115,7 @@ slides:
         Which event are we expecting?
       - **A Function**<br>
         What code do we want to run in response?
-
-      <!-- .element class="flex-list" -->
+      {: .flex-list}
 
 
 ##########
@@ -137,12 +132,12 @@ slides:
 
       We use the `bind` function to link all the parts together:
 
-      ```language-python
+      ```python
       import tkinter
       window = tkinter.Tk()
 
       def say_hello(event):
-      &nbsp;print("Why hello there!")
+          print("Why hello there!")
 
       mystery_button = tkinter.Button(window)
       mystery_button.config(text="Click Me")
@@ -151,7 +146,7 @@ slides:
 
       window.mainloop()
       ```
-      <!-- .element data-line="1-2, 12" -->
+      {: data-line="1-2, 7-8, 10-12"}
 
       This is just an example - we'll do a demo next!
 
@@ -168,7 +163,7 @@ slides:
 
       ## Events Demo
 
-      Open up `eventsdemo.py`<br> 
+      Open up `eventsdemo.py`
       so we can add some event handling to it.
 
  
@@ -186,16 +181,16 @@ slides:
 
       Add a click event binding to the `hello_button`:
 
-      ```language-python
+      ```python
       hello_button = tkinter.Button(window)
       hello_button.config(text="Click Me")
       hello_button.bind("<Button>", say_hello)
       hello_button.grid()
       ```   
-      <!-- .element data-line="1-2, 4" -->
+      {: data-line="1-2, 4" }
 
       Clicking the button should print "Hello!" in the console.
-      <!-- .element class="checkpoint" -->
+      {: .checkpoint}
 
 
 ##########
@@ -228,7 +223,7 @@ slides:
 
       ## Keyboard Events
 
-      Bind the **name entry** box to the `<Return>` event,<br>
+      Bind the **name entry** box to the `<Return>` event,
       so that pressing "enter" does the same as clicking the button.
 
 
@@ -244,7 +239,7 @@ slides:
     content: |
       ## Challenge: Stuff To Do
 
-      Complete `todo.py` with events and functionality<br> 
+      Complete `todo.py` with events and functionality
       so that it is a working To-Do app.
 
 
@@ -260,20 +255,18 @@ slides:
 
     content: |
 
-      ![Thumbs Up!]([[BASE_URL]]/assets/images/thumbs-up.svg)
-      <!-- .element height="200" -->
+      ![Thumbs Up!]([[BASE_URL]]/assets/images/thumbs-up.svg){: height="200" }
 
       ## User Interaction: Complete!
 
       Groovy, but what about more complex data...
-
       [Take me to the next chapter!](data.html)
 
 
 ---
 
 
-<section class="container content-panel">
+<section class="container content-panel" markdown="1">
 
 ## Widget Events
 
