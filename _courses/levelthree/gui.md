@@ -38,7 +38,7 @@ slides:
 
       ## TkInter Widgets
 
-      The Tkinter library provides a selection of widgets<br>
+      The Tkinter library provides a selection of widgets
       we can use to build our apps.
 
 
