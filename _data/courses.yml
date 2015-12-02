@@ -83,7 +83,7 @@ cs4hs:
 
 
 
-levelthree:
+tkinter:
 
   - name: welcome
     subtitle: Course Intro
