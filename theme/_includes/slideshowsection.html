@@ -6,7 +6,7 @@
 		
 	{% if slide.class == 'title-slide' %}
 		id="{{ slide.section }}"
-		data-background="{{ site.baseurl }}/media/images/theme/theme-tile.svg" 
+		data-background="{{ site.course_images }}/theme/theme-tile.svg" 
 		data-background-color="{{ site.themecolor }}"
 		data-background-size="200px" 
 		data-background-repeat="repeat"
@@ -15,7 +15,11 @@
 	{% endif %}
 	>
 		
-{{ slide.content | replace: '[[BASE_URL]]', site.baseurl | markdownify }}
+{{ slide.content | 
+		replace: '[[BASE_URL]]', site.baseurl | 
+		replace: '[[THEME_IMAGES]]', site.theme_images | 
+		replace: '[[COURSE_IMAGES]]', site.course_images | 
+		markdownify }}
 
 <aside class="notes">
 {{ slide.notes }}

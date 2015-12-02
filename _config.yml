@@ -1,16 +1,26 @@
-name: Building with Python
+name: Programming with Python
+
 baseurl: "/python"
+theme_assets: "/python/theme/assets"
+theme_images: "/python/theme/assets/images"
+course_images: "/python/media/images"
+
 markdown: kramdown
 exclude: ["node_modules", "Gemfile", "Gruntfile.js", "package.json", "README.md"]
-
 
 kramdown:
   input: GFM
   enable_coderay: false
 
+# Where things are
+source:       .
+destination:  ./_site
+layouts_dir:  ./theme/_layouts
+includes_dir: ./theme/_includes
 sass:
-    sass_dir: _sass
-    
+    sass_dir: ./theme/_sass
+
+# custom collections
 collections:
   assets:
     output: true
@@ -21,3 +31,4 @@ collections:
 
 # theme
 themecolor: "#466f1b"
+

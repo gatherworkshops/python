@@ -1,0 +1,774 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"base",
+				"base_image"
+			],
+			[
+				"overlay",
+				"overlay_image"
+			],
+			[
+				"blend",
+				"blend_images"
+			],
+			[
+				"new_i",
+				"new_pixels"
+			],
+			[
+				"rando",
+				"random_num"
+			],
+			[
+				"newLetter",
+				"newLetterIndex"
+			],
+			[
+				"is",
+				"isalpha"
+			],
+			[
+				"encip",
+				"enciphered_message"
+			],
+			[
+				"letter",
+				"letterIndex"
+			],
+			[
+				"image",
+				"image_path"
+			],
+			[
+				"caesa",
+				"caesar_decode"
+			],
+			[
+				"tran",
+				"transformed_message"
+			],
+			[
+				"key",
+				"keyIndex"
+			],
+			[
+				"alphabet",
+				"alphabetIndex"
+			],
+			[
+				"message",
+				"message_length"
+			],
+			[
+				"alp",
+				"alphabetIndex"
+			],
+			[
+				"new",
+				"newPixel"
+			],
+			[
+				"pixel",
+				"pixelIsLight"
+			],
+			[
+				"bl",
+				"blueLevel"
+			],
+			[
+				"gree",
+				"greenLevel"
+			],
+			[
+				"red",
+				"redLevel"
+			],
+			[
+				"w",
+				"workshop"
+			],
+			[
+				"work",
+				"Workshop"
+			],
+			[
+				"background",
+				"background-gradient"
+			],
+			[
+				"theme",
+				"theme-color-dark"
+			],
+			[
+				"language",
+				"language-javascript"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"bubbles",
+				"bubblesPopped"
+			],
+			[
+				"bubbleA",
+				"bubbleArtContainer"
+			],
+			[
+				"chapter",
+				"chapterLink"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"langu",
+				"language-javascript"
+			],
+			[
+				"cent",
+				"centered-slide"
+			],
+			[
+				"languag",
+				"language-css"
+			],
+			[
+				"drawing",
+				"drawingBoard"
+			],
+			[
+				"lan",
+				"language-html"
+			],
+			[
+				"cet",
+				"centered-slide"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"validate",
+				"validateMessage"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"venue",
+				"venue_id"
+			],
+			[
+				"an",
+				"animated-block"
+			],
+			[
+				"animated",
+				"animatedBlock"
+			],
+			[
+				"star",
+				"startString"
+			],
+			[
+				"code",
+				"codeBlock"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"print",
+				"print-view"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"gallery",
+				"gallery-image-css"
+			],
+			[
+				"videos",
+				"videos-html"
+			],
+			[
+				"t",
+				"table	Tag"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"codep",
+				"codepen-embed-title"
+			],
+			[
+				"bo",
+				"border-box"
+			],
+			[
+				"notes",
+				"notesByDefault"
+			],
+			[
+				"ti",
+				"title-page"
+			],
+			[
+				"fin",
+				"finishing-is-overrated"
+			],
+			[
+				"finish",
+				"finishing-is-the-hardest-part"
+			],
+			[
+				"lucky",
+				"luckyNumberText"
+			],
+			[
+				"title",
+				"title-slide"
+			],
+			[
+				"tit",
+				"title-slide"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"mari",
+				"margin-left"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"tex",
+				"text-bottom"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"H",
+				"HeuristicValue"
+			],
+			[
+				"ascii",
+				"asciiClassOne"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"eroded",
+				"erodedPixels"
+			],
+			[
+				"adjusted",
+				"adjustedY"
+			],
+			[
+				"origi",
+				"originPixelValue"
+			],
+			[
+				"pixe",
+				"pixelIndex"
+			],
+			[
+				"erosio",
+				"erosionMatrixIndex"
+			],
+			[
+				"origin",
+				"originPixel"
+			],
+			[
+				"matrix",
+				"matrixValue"
+			],
+			[
+				"mini",
+				"minimumDifference"
+			],
+			[
+				"eros",
+				"erosionMatrix"
+			],
+			[
+				"pixels",
+				"pixelsInWindow"
+			],
+			[
+				"object",
+				"objectPixels"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_data/courses.yml",
+			"settings":
+			{
+				"buffer_size": 2755,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "i",
+		"selected_items":
+		[
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 594.0,
+		"history":
+		[
+			"print \"hi\"",
+			"hi",
+			"python -u \"game.py\"",
+			"bhb"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Tanya/GatherWeb/python"
+	],
+	"file_history":
+	[
+		"/Users/Tanya/GatherWeb/publish.sh",
+		"/Users/Tanya/GatherWeb/home/src/tsconfig.json",
+		"/Users/Tanya/GatherWeb/home/src/index.html",
+		"/Users/Tanya/GatherWeb/home/package.json",
+		"/Users/Tanya/GatherWeb/home/index.html",
+		"/Users/Tanya/GatherWeb/home/app.ts",
+		"/app.ts",
+		"/Users/Tanya/GatherWeb/python/index.html",
+		"/Users/Tanya/GatherWeb/python/theme/_sass/_theme.scss",
+		"/Users/Tanya/GatherWeb/python/theme/assets/css/styles.scss",
+		"/Users/Tanya/PythonDev/CS4HS-Chch-2015/web/routes/website.py",
+		"/Users/Tanya/PythonDev/CS4HS-Chch-2015/cipher-cracking/ciphers.py",
+		"/Users/Tanya/PythonDev/CS4HS-Chch-2015/web/views/ciphers.tpl",
+		"/Users/Tanya/PythonDev/CS4HS-Chch-2015/image-manipulation/highlight.py",
+		"/Users/Tanya/PythonDev/CS4HS-Chch-2015/image-manipulation/desaturate.py",
+		"/Users/Tanya/PythonDev/CS4HS-Chch-2015/image-manipulation/retro.py",
+		"/Users/Tanya/PythonDev/CS4HS-Chch-2015/image-manipulation/greyscale.py",
+		"/Users/Tanya/PythonDev/CS4HS-Chch-2015/image-manipulation/channels.py",
+		"/Users/Tanya/PythonDev/CS4HS-Chch-2015/image-manipulation/filters.py",
+		"/Users/Tanya/GatherWeb/arduino/_courses/taster/binary.md",
+		"/Users/Tanya/RailsDev/GatherWorkshops/db/seeds.rb",
+		"/Users/Tanya/RailsDev/GatherWorkshops/app/views/pages/calendar.html.erb",
+		"/Users/Tanya/RailsDev/GatherWorkshops/db/migrate/20150728114503_create_topics.rb",
+		"/Users/Tanya/RailsDev/GatherWorkshops/Gemfile",
+		"/Users/Tanya/GatherWeb/python/_courses/levelthree/gui.md",
+		"/Users/Tanya/GatherWeb/python/_courses/levelthree/layouts.md",
+		"/Users/Tanya/GatherWeb/python/_site/courses/levelthree/gui.html",
+		"/Users/Tanya/GatherWeb/python/_site/courses/levelthree/layouts.html",
+		"/Users/Tanya/GatherWeb/python/_courses/levelthree/review.md",
+		"/Users/Tanya/GatherWeb/python/_courses/levelthree/welcome.md",
+		"/Users/Tanya/GatherWeb/python/_sass/_revealjs-theme.scss",
+		"/Users/Tanya/GatherWeb/python/_config.yml",
+		"/Users/Tanya/GatherWeb/python/_includes/slideshowsection.html",
+		"/Users/Tanya/GatherWeb/python/_assets/submodules/sidenotes/sidenotes.js",
+		"/Users/Tanya/GatherWeb/python/_includes/head.html",
+		"/Users/Tanya/GatherWeb/python/_courses/levelthree/events.md",
+		"/Users/Tanya/GatherWeb/python/_includes/revealjs-config.html",
+		"/Users/Tanya/GatherWeb/python/_site/courses/levelthree/review.html",
+		"/Users/Tanya/GatherWeb/python/_site/courses/levelthree/events.html",
+		"/Users/Tanya/GatherWeb/python/README.md",
+		"/Users/Tanya/GatherWeb/python/_courses/levelthree/index.html",
+		"/Users/Tanya/GatherWeb/python/_data/courses.yml",
+		"/Users/Tanya/GatherWeb/python/_includes/pagenavigation.html",
+		"/Users/Tanya/GatherWeb/python/_courses/level3/index.html",
+		"/Users/Tanya/GatherWeb/building-with-python/_sass/_theme.scss",
+		"/Users/Tanya/GatherWeb/template/media/images/icons/.gitkeep",
+		"/Users/Tanya/GatherWeb/template/media/images/slidecontent/.gitkeep",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_data/chapter-jquerybasics.yml",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_data/chapter-welcome.yml",
+		"/Users/Tanya/GatherWeb/building-with-jquery-project/pixelart.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery-project/bubbleart.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/index.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_includes/mainnavigation.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_sass/_include-media.scss",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_layouts/chapter.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_assets/submodules/sidenotes/sidenotes.js",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_sass/_chapter.scss",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_sass/_revealjs-customisation.scss",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_includes/revealjs-config.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_sass/_main-navigation.scss",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_assets/css/styles.scss",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_includes/head.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_data/chapter-pixelart.yml",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_assets/submodules/prism/prism.css",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_assets/submodules/prism/prism.js",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_data/chapter-htmlcss.yml",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/pixelart/worksheet.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_sass/_revealjs-theme.scss",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/pixelart/index.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_includes/slideshowsection.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_layouts/worksheet.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/loopinganimation/index.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/gametimer/index.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/bubbleart/index.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/jquerybasics/index.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_assets/submodules/sidenotes/css/reveal-sidenotes.css",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/animation/index.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/welcome/index.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/htmlcss/index.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_assets/submodules/sidenotes/sass/_reveal-sidenotes.scss",
+		"/Users/Tanya/GatherWeb/building-with-jquery/index.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_sass/_chapter-links.scss",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/chapters/welcome.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/chapters/pixelart.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_layouts/slide.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/chapters/animation.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_data/chapter-animation.yml",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_data/navigation.yml",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/chapters/htmlcss.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_data/chapter-loopinganimation.yml",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/chapters/jquerybasics.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/chapters/gametimer.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_data/chapter-gametimer.yml",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/chapters/loopinganimation.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/workshop/chapters/bubbleart.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_assets/submodules/sidenotes/sidenotes.html",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_sass/_splash-header.scss",
+		"/Users/Tanya/GatherWeb/building-with-jquery/_includes/splashheader.html",
+		"/Users/Tanya/RailsDev/GatherWorkshops/app/models/workshop.rb",
+		"/Users/Tanya/RailsDev/GatherWorkshops/app/models/topic.rb",
+		"/Users/Tanya/RailsDev/GatherWorkshops/app/controllers/workshops_controller.rb",
+		"/Users/Tanya/RailsDev/GatherWorkshops/config/routes.rb",
+		"/Users/Tanya/RailsDev/GatherWorkshops/app/views/workshops/_form.html.erb",
+		"/Users/Tanya/RailsDev/GatherWorkshops/db/migrate/20150702044514_create_venues.rb",
+		"/Users/Tanya/RailsDev/GatherWorkshops/db/schema.rb",
+		"/Users/Tanya/RailsDev/GatherWorkshops/app/models/course.rb",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/workshop/gallery/gallery-thumbnail-image-css.md",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/workshop/gallery/gallery-large-image-css.md",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/workshop/gallery/gallery-image-download.md",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/workshop/gallery/gallery-html.md",
+		"/Users/Tanya/GatherWeb/building-the-web/workshop/menubar/index.html",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/workshop/menubar/additional-pages.md",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/workshop/menubar/nav-button-css.md",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/workshop/menubar/navigation-css.md",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/workshop/menubar/navigation-links.md",
+		"/Users/Tanya/GatherWeb/building-the-web/workshop/youtube/index.html",
+		"/Users/Tanya/GatherWeb/building-the-web/_assets/css/styles.scss",
+		"/Users/Tanya/GatherWeb/building-the-web/_layouts/recipe.html",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/workshop/menubar/title-page.md",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/workshop/layoutbuilder/html-new.md",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/workshop/layoutbuilder/cloudcannon.md",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/levelone/layoutbuilder/x-background-css-cover.md",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/levelone/layoutbuilder/x-background-css-tile.md",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/levelone/layoutbuilder/x-background-ideas.md",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/levelone/layoutbuilder/x-background.md",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/levelone/layoutbuilder/x-cloudcannon-create.md",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/levelone/layoutbuilder/x-cloudcannon-github.md",
+		"/Users/Tanya/GatherWeb/building-the-web/_slides/levelone/layoutbuilder/x-cloudcannon.md"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/Tanya/GatherWeb/python",
+			"/Users/Tanya/GatherWeb/building-with-jquery",
+			"/Users/Tanya/RailsDev/GatherWorkshops",
+			"<open folders>",
+			"/Users/Tanya/GatherWeb/building-the-web",
+			"/Users/Tanya/GatherWeb/building-with-python"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<!-- .element class=\"checkpoint\" -->",
+			"lang-python",
+			"language-python",
+			"splash-header",
+			";\n",
+			"theme-tile",
+			"course",
+			"ravens-tile.jpg",
+			"col-md",
+			"inkscape",
+			"favicon",
+			"jquery",
+			"recent",
+			"register",
+			"Building-the-Web",
+			"marked",
+			".html",
+			"configure",
+			".md",
+			"break"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"{: .checkpoint }",
+			"python",
+			"col-xs",
+			"col-md",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_data/courses.yml",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "python.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 175.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

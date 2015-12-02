@@ -1,6 +1,15 @@
 ---
 ---
 
+// theme stuff
+
+$baseurl: '{{site.baseurl}}';
+$assets-url: '{{site.theme_assets}}';
+$theme-color: {{site.themecolor}};
+
+
+// other files to include
+
 @import 'theme';
 @import 'mixins';
 

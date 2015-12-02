@@ -13,6 +13,75 @@ taster:
 
 
 
+cs4hs:
+
+  - name: welcome
+    subtitle: Course Intro
+    title: Welcome
+    description: Workshop plan and intro
+
+  - name: ciphers
+    subtitle: Course Intro
+    title: Ciphers
+    description: Workshop plan and intro
+
+  - name: caesar-cipher
+    subtitle: Course Intro
+    title: Caesar Cipher
+    description: Workshop plan and intro
+
+  - name: vigenere-cipher
+    subtitle: Course Intro
+    title: Vigenere Cipher
+    description: Workshop plan and intro
+
+  - name: vernam-cipher
+    subtitle: Course Intro
+    title: Vernam Cipher
+    description: Workshop plan and intro
+
+  - name: photo-filters
+    subtitle: Course Intro
+    title: Photo Filters
+    description: Workshop plan and intro
+
+  - name: colour-channels
+    subtitle: Course Intro
+    title: Colour Channels
+    description: Workshop plan and intro
+
+  - name: desaturation
+    subtitle: Course Intro
+    title: Desaturation
+    description: Workshop plan and intro
+
+  - name: blending
+    subtitle: Course Intro
+    title: Blending
+    description: Workshop plan and intro
+
+  - name: web-frameworks
+    subtitle: Course Intro
+    title: Web Frameworks
+    description: Workshop plan and intro
+
+  - name: routing
+    subtitle: Course Intro
+    title: Routing
+    description: Workshop plan and intro
+
+  - name: templates
+    subtitle: Course Intro
+    title: Templates
+    description: Workshop plan and intro
+
+  - name: data-models
+    subtitle: Course Intro
+    title: Data Models
+    description: Workshop plan and intro
+
+
+
 
 levelthree:
 
