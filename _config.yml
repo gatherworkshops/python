@@ -1,4 +1,4 @@
-name: Programming with Python
+name: Building with Python
 
 baseurl: "/python"
 theme_assets: "/python/theme/assets"
